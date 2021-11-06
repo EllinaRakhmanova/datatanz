@@ -11,90 +11,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+    <script src="javascript.js"></script>
+
     <title>WHAT’S APP/50+</title>
 </head>
-<body>
+<body class="page">
     <header class="container">
         <div class="header-block">
             <div class="header-block_logo">
-            WHAT’S APP<span>/50+</span>
+                WHAT’S APP<span>/50+</span>
             </div>
             <menu class="header-block_list">
-                <a href="#" class="header-block_item">Функции</a>
-                <a href="#" class="header-block_item">Безопасность</a>
-                <a href="#" class="header-block_item">Обмен сообщениями</a>
+                <a href="#function" class="header-block_item">Функции</a>
+                <a href="#security" class="header-block_item">Безопасность</a>
+                <a href="#scheme" class="header-block_item">Обмен сообщениями</a>
             </menu>
-            <button class="header-block_button">Подробно о  Whats App</button>
+            <button class="header-block_button">Подробно о  WhatsApp</button>
         </div>
     </header>
     <main class="container background_blue">
         <div class="main-block">
             <div class="main-block_content">
-               <h1>WHATS APP<br/>БЕЗОПАСНОСТЬ</h1>
+               <h1>WHATSAPP<br/>БЕЗОПАСНОСТЬ</h1>
                <div class="main-block_text">
-                Приложение What’s App существует уже давно. 
-                На нашем сайте мы расскажем обо всех функциях этого приложения, 
-                его безопасности и как им правильно пользоваться.
+                Этот сайт для наших родителей и их друзей, продвинутых бабушек и дедушек, 
+                а также всех, кто пользуется WhatsApp, но не знает, безопасно ли отправлять личные данные в WhatsApp. 
+                <br />
+                <br />
+                Мы объясним, как сервис WhatsApp защищает данные, и расскажем, что можно отправлять 
+                в этом мессенджере, а что отправлять не стоит.
                </div>
-               <button class="main-block_button">Читать статью</button>
+               <!-- <button class="main-block_button">Читать статью</button> -->
             </div>
             <div class="main-block_img">
                 <img src="img/img_phone.jpg" alt="phone">
             </div>
+            <button class="main-block_circle-button"><img src="img/img_button.png" alt="man"><span class="tooltiptext">Я увеличиваю размер шрифта</span></button>
         </div>
     </main>
     <div class="container">
         <div class="function-block">
-            <div class="function-block_title">
+            <div id="function" class="function-block_title">
                 ФУНКЦИИ ПРИЛОЖЕНИЯ
             </div>
             <div class="function-block_content">
                 <div class="function-block_item">
                     <img src="img/img_call.svg" alt="call">
                     <h3>Аудио и видеозвонки</h3>
-                    <p>Eos tota dicunt democritum no. Has natum gubergren ne. 
-                        Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, 
-                        dicit virtute urbanitas id nam, qui in habeo semper eligendi.
+                    <p>Нажимаете иконку «аудио» или «видеозвонок» в чате с человеком, которому 
+                        вы хотите позвонить. Вы сможете пообщаться голосом или 
+                        увидеть собеседника.
                     </p>
                 </div>
                 <div class="function-block_item">
-                    <img src="img/img_shield.svg" alt="shield">
-                    <h3>Защита данных</h3>
-                    <p>Eos tota dicunt democritum no. Has natum gubergren ne. 
-                        Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, 
-                        dicit virtute urbanitas id nam, qui in habeo semper eligendi.
+                    <img src="img/img_clarity_group-line.svg" alt="shield">
+                    <h3>Групповой чат</h3>
+                    <p>Вы можете создать чат для нескольких человек, с которыми вы часто 
+                        обмениваетесь новостями. Это могут быть члены семьи, подруги, 
+                        родственники и так далее.
                     </p>
                 </div>
                 <div class="function-block_item">
                     <img src="img/img_tag.svg" alt="tag">
                     <h3>Конференции</h3>
-                    <p>Eos tota dicunt democritum no. Has natum gubergren ne. 
-                        Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, 
-                        dicit virtute urbanitas id nam, qui in habeo semper eligendi.
+                    <p>Конференции принимают до 4-х человек из списка ваших контактов. Можно устроить 
+                        групповой созвон и общаться сразу всей семьей или с друзьями.
                     </p>
                 </div>
                 <div class="function-block_item">
                     <img src="img/img_send.svg" alt="send">
                     <h3>Отправка и удаление сообщений</h3>
-                    <p>Eos tota dicunt democritum no. Has natum gubergren ne. 
-                        Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, 
-                        dicit virtute urbanitas id nam, qui in habeo semper eligendi.
+                    <p>Сообщения и ссылки, скопированные из браузера, отправляются через поле «Сообщение» - 
+                        здесь никаких сюрпризов. Нажав на микрофон, вы можете записать и 
+                        отправить аудиосообщение.
                     </p>
                 </div>
                 <div class="function-block_item">
                     <img src="img/img_share.svg" alt="share">
                     <h3>Обмен информацией</h3>
-                    <p>Eos tota dicunt democritum no. Has natum gubergren ne. 
-                        Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, 
-                        dicit virtute urbanitas id nam, qui in habeo semper eligendi.
+                    <p>Вы можете отправить аудио,  фото  или документ, нажав на иконку в форме 
+                        скрепки в чате с сообщениями. Вы также можете сфотографироваться, нажав на 
+                        иконку с фотоаппаратом внизу чата, и сразу отправить фото.
                     </p>
                 </div>
                 <div class="function-block_item">
                     <img src="img/img_database.svg" alt="database">
                     <h3>Сохранение данных</h3>
-                    <p>Eos tota dicunt democritum no. Has natum gubergren ne. 
-                        Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, 
-                        dicit virtute urbanitas id nam, qui in habeo semper eligendi.
+                    <p>Возможно настроить резервное копирование всей переписки на телефон или в 
+                        облако - Google Drive для телефонов с Android и в iCloud, если у вас iPhone. 
+                        Это можно сделать в настройках WhatsApp в разделе чатов. 
                     </p>
                 </div>
             </div>
@@ -102,13 +107,13 @@
     </div>
     <div class="container background_blue">
         <div class="security-block">
-            <div class="security-block_content">
+            <div id="security" class="security-block_content">
                 <h1>БЕЗОПАСНОСТЬ</h1>
                 <div class="security-block_text">
-                    Видео защищены сквозным шифрованием. 
-                    Поэтому вы можете абсолютно безопасно отправлять сообщения и фото. Что 
-                    еще можно или нельзя отправлять? Вы можете посмотреть видео нашего эксперта, 
-                    программиста, или прочитать о сквозном шифровании. 
+                    WhatsApp обещает защищать ваши персональные данные, когда вы отправляете файлы, 
+                    голосовые и текстовые сообщение. Это значит, что никто кроме вас или человека, 
+                    которому вы пишите, не будет знать, про что ваше сообщение. Это возможно с помощью 
+                    технологии сквозного шифрования. 
                 </div>
                 <button class="security-block_button">Читать статью</button>
             </div>
@@ -118,18 +123,71 @@
         </div>
     </div>
     <div class="container">
-        <div class="scheme-block">
+        <div id="scheme" class="scheme-block">
             <div class="scheme-block_title">
                 КАК ПРОИСХОДИТ ОБМЕН СООБЩЕНИЯМИ?
             </div>
             <div class="scheme-block_content">
-                <div class="scheme-block_item">
-                    <img src="#" alt="#">
-                    <p>Общайтесь в родительских чатах</p>
+                <div class="scheme-block_send">
+                    <div class="scheme-block_item">
+                        <img src="img/img_group.svg" alt="group">
+                        <p>Общаетесь в родительских чатах</p>
+                    </div>
+                    <div class="scheme-block_item">
+                        <img src="img/img_group2.svg" alt="group">
+                        <p>Обмениваетесь фото</p>
+                    </div>
+                    <div class="scheme-block_item">
+                        <img src="img/img_group3.svg" alt="group">
+                        <p>Отправляете сообщения</p>
+                    </div>
+                    <div class="scheme-block_item">
+                        <img src="img/img_group4.svg" alt="group">
+                        <p>Пересылаете голосовые сообщения</p>
+                    </div>
+                </div>
+                <div class="scheme-block_item_arrow">
+                    <div class="scheme-block_line"></div>
+                    <img src="img/img_group9.svg" alt="arrow">
+                </div>
+                <div class="scheme-block_mid">
+                    <div class="scheme-block_item">
+                        <img src="img/img_group5.svg" alt="group">
+                        <p>Сообщения преобразуются в шифр</p>
+                    </div>
+                </div>
+                <div class="scheme-block_item_arrow">
+                    <div class="scheme-block_line"></div>
+                    <img src="img/img_group9.svg" alt="arrow">
+                </div>
+                <div class="scheme-block_receive">
+                    <div class="scheme-block_item">
+                        <img src="img/img_group6.svg" alt="group">
+                        <p>Сообщение расшифровывается</p>
+                    </div>
+                    <div class="scheme-block_item">
+                        <img src="img/img_group8.svg" alt="group">
+                        <p>Данные успешно доставлены</p>
+                    </div>
+                    <div class="scheme-block_item">
+                        <img src="img/img_group7.svg" alt="group">
+                        <p>Получатели слушают или читают ваши сообщения</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer></footer>
+    <footer>
+        <div class="footer-block container">
+            <div class="footer-block_logo">
+                WHAT’S APP<span>/50+</span>
+            </div>
+            <div class="footer-block_text">
+                Наш проект и основная работа никак не связаны с Facebook, 
+                WhatsApp и Meta. Мы пользуемся разными приложениями, в том числе 
+                WhatsApp, но не ставим целью его рекламировать.
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
